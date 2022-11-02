@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="../bs/bootstrap.min.css">
    <link rel="stylesheet" href="../styles.css">
-    <title>Ale burgers</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap" rel="stylesheet">
+    
+   <title>Ale burgers</title>
 </head>
 <body>
     <header class="navbar navbar-expand-lg bg-light border border-dark">
@@ -31,41 +35,52 @@
                   <li class="nav-item">
                     <a class="nav-link" href="../Secciones/pedidos.html">Pedidos</a>
               </li>
-                </ul>
-              </li>
-            </ul>
             <main>
               </selection>
           </nav>
         </div>
       </header>
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="conteiner">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="../burgas/imagen1.JPG" class="d-block w-100" alt="imagen2">
+            <img src="../burgas/DSC_0661.JPG" class="d-block w-100" alt="imagen0">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Siempre es una buena noche para pedir</h5>
+              <p>No te quedes con las ganas.</p>
+            </div>
           </div>
           <div class="carousel-item">
-            <img src="../burgas/imagen2.JPG" class="d-block w-100" alt="imagen1">
+            <img src="../burgas/DSC_0727.JPG" class="d-block w-100" alt="imagen1">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Siempre es una buena dia para pedir</h5>
+              <p>No te vas a arrepentir de pedir ninguna.</p>
+            </div>
           </div>
           <div class="carousel-item">
-            <img src="../burgas/imagen3.JPG" class="d-block w-100" alt="imagen3">
+            <img src="../burgas/DSC_0723.JPG" class="d-block w-100" alt="imagen3">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Que momento es malo para una burger?</h5>
+              <p>Hace tu noche, una mejor noche.</p>
+            </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-
+    </div>
+      
     <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
