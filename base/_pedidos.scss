@@ -1,16 +1,16 @@
 .card-body
      
-        { background-color: black;
+        { background-color: $card-bod_color;
 
          .card-title 
         {
-        color: white;
+        color: $card-title_color;
         }
     
         .card-text 
         {
 
-        color: orange;
+        color: $card-text_color;
 
         }
         }
