@@ -1,0 +1,20 @@
+{
+  "name": "coderbostrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch base/base.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maurigerman/proyectoboostrap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maurigerman/proyectoboostrap/issues"
+  },
+  "homepage": "https://github.com/Maurigerman/proyectoboostrap#readme"
+}

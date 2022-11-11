@@ -1,0 +1,35 @@
+*
+{ 
+    margin: 0px;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+ 
+ }
+ .text-focus-in {
+     -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+             animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+ }
+
+ .navbar-toggler
+      
+      { border-color: aliceblue;
+
+      }
+
+    
+      .footer_icons {
+      
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        bottom: 0%;
+        overflow: hidden;  
+        list-style-type: none; 
+      }
+      
+      .redes {
+        padding-bottom: 2%;
+       }
+  
