@@ -217,6 +217,8 @@
 
 .nav-link {
  color: white;
+
+ 
 }
 
 .body_color{
@@ -242,6 +244,11 @@ color: white;
 .headercolor{
   background-color: black;
 }
+
+.cart {
+  box-sizing: border-box;
+}
+
 
 
 
