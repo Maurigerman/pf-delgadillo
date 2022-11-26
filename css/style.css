@@ -249,6 +249,17 @@ color: white;
   box-sizing: border-box;
 }
 
+.ingredientes { 
+  padding: 1rem;
+
+}
+
+.tamanio  {
+
+  width: 500px;
+}
+
+
 
 
 
